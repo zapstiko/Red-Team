@@ -9,7 +9,7 @@
 | netstat -tulpn | Connections with PIDs |
 | lsof -i | Established connections |
 | smb:// ip /share | Access windows smb share |
-| smbclient -0 user\\\\ ip \\ share | SMB connect |
+| smbclient -U user \\\\ ip \\ share | SMB connect |
 | share user x.x.x.x c$ | Mount Windows share |
 | ifconfig eth# ip / cidr | Set IP and netmask |
 | ifconfig ethO:1 ip / cidr | Set virtual interface |
