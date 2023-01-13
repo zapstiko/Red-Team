@@ -14,7 +14,7 @@
 | ifconfig ethO:l ip I cidr | Set virtual interface |
 | route add default gw gw lp | Set GW |
 | ifconfig eth# mtu [size] | Change MTU size |
-| export l1AC=xx: XX: XX: XX: XX: XX | Change MAC |
+| export MAC=xx: XX: XX: XX: XX: XX | Change MAC |
 | ifconfig int hw ether MAC | Change MAC |
 | macchanger -m MAC int  | Backtrack MAC changer |
 | iwlist int scan | Built-in wifi scanner |
