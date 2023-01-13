@@ -3,8 +3,8 @@
 ## **LINUX NETWORK COMMANDS**
 
 |Command | Description |
-| watch ss -tp | Network connections |
 | --- | --- |
+| watch ss -tp | Network connections |
 | netstat -ant | Tcp connections -anu=udp |
 | netstat -tulpn | Connections with PIDs |
 | lsof -i | Established connections |
