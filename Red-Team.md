@@ -22,8 +22,8 @@
 | host ip | Domain lookup for IP |
 | dig @ ip domain -t AXrR | DNS Zone Xfer |
 | ip xfrm state list | Print existing VPN keys |
-| ip addr add ip I cidr dev eth0 | Adds 'hidden' interface |
-| /var/log/messages I grep DHCP | List DHCP assignments |
+| ip addr add ip / cidr dev eth0 | Adds 'hidden' interface |
+| /var/log/messages | grep DHCP | List DHCP assignments |
 | tcpkill host ip and port port | Block ip:port |
 | echo "1" /proc/sys/net/ipv4/ip_forward | Turn on IP Forwarding |
 | echo ''nameserver x.x.x.x'' /etc/resolv.conf | Add DNS Server |
