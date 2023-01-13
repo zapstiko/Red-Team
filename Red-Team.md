@@ -1,8 +1,4 @@
 
 ## **LINUX NETWORK COMMANDS**
 
-| watch ss -tp | Network connections |
-| --- | --- |
-| netstat -ant | Tcp connections -anu=udp |
-|  |  |
-|  |  |
+|watch ss -tp | Network connections |
