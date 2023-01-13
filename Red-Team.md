@@ -10,8 +10,8 @@
 | smb:// ip /share | Access windows smb share |
 | smbclient -0 user\\\\ ip \\ share | SMB connect |
 | share user x.x.x.x c$ | Mount Windows share |
-| ifconfig eth# ip I cidr | Set IP and netmask |
-| ifconfig ethO:1 ip I cidr | Set virtual interface |
+| ifconfig eth# ip / cidr | Set IP and netmask |
+| ifconfig ethO:1 ip / cidr | Set virtual interface |
 | route add default gw gw_ip | Set GW |
 | ifconfig eth# mtu [size] | Change MTU size |
 | export MAC=xx: XX: XX: XX: XX: XX | Change MAC |
